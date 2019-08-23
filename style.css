@@ -1,0 +1,81 @@
+body {
+    background-color: #ebebeb;
+}
+.img {
+    height: 150px;
+    border-radius: 75px;
+    margin: 5px 0px 0px 140px
+}
+.info {
+    background-color: white;
+    margin: 0px 425px 15px 425px;
+    border-radius: 3px;
+}
+.texte>h1{
+    color: #dd5454;
+    text-align: center;
+}
+.texte>h2{
+    text-align: center;
+}
+.texte>p{
+    margin: 0px 15px 0px 15px;
+}
+.button {
+    text-align: center;
+}
+.button-color {
+    border: none;
+    margin-bottom: 15px;
+    background-color: #dd5454;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+}
+.social {
+    background-color: white;
+    margin: 0px 425px 0px 425px;
+    border-radius: 3px;
+    padding: 20px
+}
+ul {
+    text-align: center;
+    padding: 10px 70px 0px 70px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.nom {
+    text-align: center;
+    padding: 0px 60px 15px 45px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.movie {
+    background-color: white;
+    margin: 0px 425px 15px 425px;
+    border-radius: 3px;       
+}
+.gauche {
+    float: left;
+    height: 100px;
+    margin: 0px 10px 0px 20px;
+}
+.droite {
+    margin-left: 10px;
+    padding: 0px 20px 30px 100px;
+}
+h3 {
+    text-align: center;
+}
+.movietitre {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.movie > .movietitre::before {
+    content: "His";
+    background: #ebebeb;
+}
