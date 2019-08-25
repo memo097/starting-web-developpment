@@ -1,15 +1,21 @@
-body {
+ body {
     background-color: #ebebeb;
 }
 .img {
     height: 150px;
     border-radius: 75px;
-    margin: 5px 0px 0px 140px
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .info {
     background-color: white;
-    margin: 0px 425px 15px 425px;
+    width: 425px;
     border-radius: 3px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 .texte>h1{
     color: #dd5454;
@@ -34,9 +40,10 @@ body {
 }
 .social {
     background-color: white;
-    margin: 0px 425px 0px 425px;
+    width: 425px;
     border-radius: 3px;
-    padding: 20px
+    margin-left: auto;
+    margin-right: auto;    
 }
 ul {
     text-align: center;
@@ -54,8 +61,10 @@ ul {
 }
 .movie {
     background-color: white;
-    margin: 0px 425px 15px 425px;
-    border-radius: 3px;       
+    border-radius: 3px;
+    width: 425px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gauche {
     float: left;
